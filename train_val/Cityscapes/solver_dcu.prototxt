@@ -1,0 +1,15 @@
+train_net: "./pspnet101_cityscapes_473_dcu.prototxt"
+iter_size: 5
+lr_policy: "poly"
+power: 0.9
+base_lr: 2.5e-4
+
+#average_loss: 20
+display: 10
+max_iter: 90000
+momentum: 0.9
+weight_decay: 0.0005
+
+snapshot: 10000
+snapshot_prefix: "./model/train_dcu"
+solver_mode: GPU
