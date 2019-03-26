@@ -3,17 +3,17 @@
 by Chaoyi Han, Yiping Duan, Xiaoming Tao, and Jianhua Lu.
 
 
-#Introduction
+##Introduction
 This repository is modified from '[Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105)' and [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2). The implementation mainly involves the "DCU" layer and corresponding group softmax normalizations. Currently, the group normalization explicitly uses a combination of softmax layers in official caffe.
 
-#Usage 
+##Usage 
 For quick start, we provide training and validation scripts on Cityscapes dataset. The example is the Res101-SPP-DCU structure introduced in our paper.  Training scripts on other sturctures as well as datasets should be strightforward with minor modifications. 
 
-#Installation
+##Installation
 Follow the instructions of [Caffe](https://github.com/BVLC/caffe) and [DeepLab v2] for installation. 
 The code is tested on Ubuntu 16.04 with CUDA 8.0.
 
-#Training
+##Training
 1. Get in the subdirectory:
 
    ```shell
@@ -36,9 +36,9 @@ The code is tested on Ubuntu 16.04 with CUDA 8.0.
    ```
    sh ./train_test.sh
    ```
-#Testing
+##Testing
  We adopt the evaluation code in [Pyramid Scene Parsing Network] with some modifications. Multiscale testing and mirror testing are included in our evaluations.  For how to use the scripts please refer to the PSPNET.README. 
 
 
-# Contact
- For any problem please contact hancy16@mails.tsinghua.edu.cn.
+## Contact
+ For any problems please contact hancy16@mails.tsinghua.edu.cn.
