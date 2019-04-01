@@ -10,7 +10,14 @@ This repository is modified from '[Pyramid Scene Parsing Network](https://arxiv.
 For quick start, we provide training and validation scripts on Cityscapes dataset. The example is the Res101-SPP-DCU structure introduced in our paper.  Training scripts on other sturctures as well as datasets should be strightforward with minor modifications. 
 
 ##Installation
-Follow the instructions of [Caffe](https://github.com/BVLC/caffe) and [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2) for installation. 
+    - Clone this repo:
+
+   ```
+   git clone https://github.com/hancy16/DCU
+   cd DCU
+   ```
+
+    - Follow the instructions of [Caffe](https://github.com/BVLC/caffe) and [DeepLab v2](https://bitbucket.org/aquariusjay/deeplab-public-ver2) for installation. 
 The code is tested on Ubuntu 16.04 with CUDA 8.0.
 
 ##Training
@@ -37,7 +44,7 @@ The code is tested on Ubuntu 16.04 with CUDA 8.0.
    sh ./train_test.sh
    ```
 ##Testing
- We adopt the evaluation code in [Pyramid Scene Parsing Network] with some modifications. Multiscale testing and mirror testing are included in our evaluations.  For how to use the scripts please refer to the PSPNET.README. 
+ We adopt the evaluation code in [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) with some modifications. Multiscale testing and mirror testing are included in our evaluations.  For how to use the scripts please refer to the PSPNET.README. 
 
 
 ## Contact
