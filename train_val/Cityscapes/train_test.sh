@@ -20,7 +20,7 @@ if [ ${Train} -eq 1 ]; then
 fi
 
 
-
+MODEL=./trained_model
 if [ ${Test} -eq 1 ]; then 
   TEST_ITER=`cat ./val.txt | wc -l`
   CMD="${CAFFE_BIN} test \
