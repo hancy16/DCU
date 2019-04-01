@@ -46,6 +46,24 @@ The code is tested on Ubuntu 16.04 with CUDA 8.0.
 ##Testing
  We adopt the evaluation code in [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) with some modifications. Multiscale testing and mirror testing are included in our evaluations.  For how to use the scripts please refer to the PSPNET.README. 
 
+##Citation
+
+Please consider citing:
+
+	@ARTICLE{8678765,
+	author={C. {Han} and Y. {Duan} and Y. {Duan} and X. {Tao} and J. {Lu}},
+	journal={IEEE Access},
+	title={Dense Convolutional Networks for Semantic Segmentation},
+	year={2019},
+	volume={},
+	number={},
+	pages={1-1},
+	keywords={Dense convolution unit;fully convolutional network;overlapped prediction;semantic segmentation},
+	doi={10.1109/ACCESS.2019.2908685},
+	ISSN={2169-3536},
+	month={},}
+
+ 
 
 ## Contact
- For any problems please contact hancy16@mails.tsinghua.edu.cn.
+ For any problem please contact hancy16@mails.tsinghua.edu.cn.
