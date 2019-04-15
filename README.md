@@ -51,14 +51,14 @@ The code is tested on Ubuntu 16.04 with CUDA 8.0.
 Please consider citing:
 
 	@ARTICLE{8678765,
-	author={C. {Han} and Y. {Duan} and Y. {Duan} and X. {Tao} and J. {Lu}},
+	author={C. {Han} and Y. {Duan} and X. {Tao} and J. {Lu}},
 	journal={IEEE Access},
 	title={Dense Convolutional Networks for Semantic Segmentation},
 	year={2019},
-	volume={},
+	volume={7},
 	number={},
-	pages={1-1},
-	keywords={Dense convolution unit;fully convolutional network;overlapped prediction;semantic segmentation},
+	pages={43369-43382},
+	keywords={Convolution;Semantics;Task analysis;Image segmentation;Standards;Benchmark testing;Training;Dense convolution unit;fully convolutional network;overlapped prediction;semantic segmentation},
 	doi={10.1109/ACCESS.2019.2908685},
 	ISSN={2169-3536},
 	month={},}
